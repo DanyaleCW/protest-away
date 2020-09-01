@@ -45,17 +45,17 @@ class Home extends Component {
                     <div className={styles.BannerHeaderContainer}>
                         <div className={styles.BannerHeader}>
                             <div className={styles.BannerText}>
-                                Protest Away
+                                Protest Away<strong className={styles.Period}>.</strong>
                             </div>
                             <div className={styles.BannerSloganContainer}>
                                 <div class={styles.BannerSloganText}><p>
-                                    Make an impact from anywhere
+                                    make an impact from anywhere
                                 </p></div>
                             </div>
                         </div>
                         <div className={styles.BannerHeaderSubtextContainer}>
                             <p className={styles.BannerHeaderSubtext}>
-                                <strong>Tweet about incidents in your community using our hashtag.</strong><br />
+                                <strong>Tweet about incidents in your community using our hashtag.</strong>
                                 (i.e #protestaway-policebrutality, #protestaway-workplacediscrimination)
                             </p>
                         </div>

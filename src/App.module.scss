@@ -56,54 +56,66 @@ body {
       left:2rem;
     }
     .BannerHeader {
-      background-color:#FBEE1F;
-      height:9rem;
+      background-color:#000000;
+      height:11rem;
       position:relative;
       top:0;
       left:0;
       width:100%;
     }
     .BannerText {
+      color:#ffffff;
       font-family: georgia;
       font-weight:bold;
-      font-size: 2.5rem;
+      font-size: 2rem;
       position: relative;
       top: 2rem;
       left:4rem;
     }
+    .Period {
+      color:#FBEE1F;
+    }
     .BannerSloganContainer{
-      background: white;
+      color:#FBEE1F;
+      font-size: 2rem;
       position:relative;
-      width:60%;
+      width:150%;
       height:2.5rem;
-      left:60%;
-      top:3rem;
+      left:12%;
+      top:2.5rem;
       display:flex;
       flex-direction: column;
       justify-content: center;
       align-content: center;
     }
     .BannerSloganText {
-      font-family: arial;
+      color:#FBEE1F;
+      font-family: georgia;
       font-weight:bold;
       vertical-align: middle;
       margin-left:1rem;
     }
     .BannerHeaderSubtextContainer {
-      width:120%;
+      background-color:grey;
+      width:250%;
       height:2rem;
       position:relative;
       top:0rem;
-      left:0rem;
+      left:-2rem;
+      margin-top: 14px;
+      padding-top: 1px;
+      padding-bottom: 17px;
+      padding-left: 155px;
+      padding-right: 205px;
     }
     .BannerHeaderSubtext {
       font-family:georgia;
       color:white;
-      font-size: 9pt;
+      font-size: 11pt;
     }
     .TrendingHashtagsContainer {
       color:white;
-      width: 45%;
+      width: 90%;
       max-width: 30rem;
       height:10rem;
       position:relative;
@@ -130,6 +142,7 @@ body {
       display:flex;
       justify-content: space-between;
       padding-left:0;
+      line-height: 2rem;
     }
     .TweetsAndIncidentsNavbar {
       //background:blue;
@@ -170,7 +183,7 @@ body {
         }
       }
     }
-    
+
   }
   .link {
     text-decoration: inherit;
@@ -185,7 +198,7 @@ body {
     height: 6rem;
     width: 100%;
     background-color: #FBEE1F;
-    color: black;
+    color: #000000;
     font-family: arial;
     .NavbarLinks {
       display:flex;
@@ -195,15 +208,30 @@ body {
     }
   }
   .NavbarHeaderText {
-    padding-left:2rem;
+    padding-left:6rem;
     padding-top:1rem;
-    .Bold {
-      font-weight:bolder;
-    }
+    font-size: 1.1rem;
+    font-weight: 500;
   }
+
+    // .Bold {
+    //   font-weight:bolder;
+    // }
   .NavbarLink {
     padding-right:1rem;
     padding-top:1rem;
+  }
+  .NavbarLinkConnect {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 18px 2px;
+    border-radius:.3rem;
   }
   .NavbarLink:hover {
     font-size:1.1em;
@@ -213,7 +241,5 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
   }
-  
+
 }
-
-

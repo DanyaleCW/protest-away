@@ -10,8 +10,9 @@ class App extends Component {
         <div className={styles.Navbar}>
           <Link className={styles.link} to="/"><div><h5 className={styles.NavbarHeaderText}>TAKE ACTION, <strong className={styles.Bold}>FROM HOME.</strong></h5></div></Link>
           <div className={styles.NavbarLinks}>
-            <Link className={styles.link} to="/report"><div className={styles.NavbarLink}><h5>REPORT</h5></div></Link>
-            <Link className={styles.link} to="/connect"><div className={styles.NavbarLink}><h5>CONNECT</h5></div></Link>
+          <Link className={styles.link} to="/connect"><div className={styles.NavbarLink}><h5>CONNECT TO A CAUSE</h5></div></Link>
+            <Link className={styles.link} to="/report"><div className={styles.NavbarLinkConnect}><h5>REPORT INCIDENT</h5></div></Link>
+
           </div>
         </div>
         <Main />
